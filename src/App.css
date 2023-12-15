@@ -27,7 +27,6 @@ body {
   background-size: cover;
   display: flex;
   flex-direction: column;
-
 }
 
 .hidden {
@@ -47,11 +46,19 @@ h1 {
   margin: 0;
 }
 
+.formlabs-careers-text-wrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
 .formlabs-careers-text-wrapper > div {
   display: flex;
   flex-direction: column;
   align-items: center;
-
 }
 
 @media screen and (min-width: 1000px) {
@@ -67,9 +74,8 @@ h1 {
   h1 {
     font-size: 3rem;
   }
-  
+
   h2 {
     font-size: 2rem;
-  
   }
 }

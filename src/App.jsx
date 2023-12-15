@@ -32,17 +32,7 @@ function App() {
             </div>
           </nav>
         </div>
-        <div
-          style={{
-            flex: '1',
-            display: 'flex',
-            flexDirection: 'column',
-            alignItems: 'center',
-            justifyContent: 'center',
-            color: 'white'
-          }}
-          className='formlabs-careers-text-wrapper'
-        >
+        <div className="formlabs-careers-text-wrapper">
           <div>
             <h1>Formlabs Careers</h1>
             <h2>Empowering anyone to make anything.</h2>
