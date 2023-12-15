@@ -1,0 +1,75 @@
+nav {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 1px solid lightgray;
+  width: 1200px;
+  font-size: 1rem;
+}
+
+body {
+  font-family: Proxima Nova, proxima-nova, Helvetica Neue, Helvetica, Arial,
+    sans-serif;
+}
+
+.nav-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.top-main {
+  height: 50vw;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(./assets/careers-main-page-hero.webp);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.hidden {
+  display: none;
+}
+
+#joinUsBtn {
+  background-color: rgb(47, 79, 221);
+  color: white;
+  border: none;
+  padding: 10px 30px;
+  border-radius: 1000px;
+  cursor: pointer;
+}
+
+h1 {
+  margin: 0;
+}
+
+.formlabs-careers-text-wrapper > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+@media screen and (min-width: 1000px) {
+  .rx-menu-wrapper {
+    display: none;
+  }
+
+  .hidden {
+    display: flex;
+    gap: 40px;
+  }
+
+  h1 {
+    font-size: 3rem;
+  }
+  
+  h2 {
+    font-size: 2rem;
+  
+  }
+}
